@@ -12,7 +12,7 @@ setTimeout(function(){	//**preloader to wait 0.7secs to load the inside the body
 
 function x(){
 	$.ajax({
-		url: "http://www.omdbapi.com/?t=gotham"
+		url: "https://www.omdbapi.com/?t=gotham"
 
 	}).done(function(res){
 		console.log(res);
@@ -49,7 +49,7 @@ function y(){
 
 
 $.ajax({
-		url: "http://www.omdbapi.com/?t=gotham&Season=1"
+		url: "https://www.omdbapi.com/?t=gotham&Season=1"
 		
 	}).done(function(ret){
 		console.log(ret);
@@ -177,7 +177,7 @@ function z(){
 
 
 $.ajax({
-		url: "http://www.omdbapi.com/?t=gotham&Season=2"
+		url: "https://www.omdbapi.com/?t=gotham&Season=2"
 		
 	}).done(function(ret){
 		console.log(ret);
@@ -300,7 +300,7 @@ function b(){
 
 
 $.ajax({
-		url: "http://www.omdbapi.com/?t=gotham&Season=3"
+		url: "https://www.omdbapi.com/?t=gotham&Season=3"
 		
 	}).done(function(ret){
 		console.log(ret);
